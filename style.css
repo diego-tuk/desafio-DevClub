@@ -5,12 +5,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-header{
+header {
     margin-left: 42px;
     margin-top: 47px;
 }
 
-.link-header{
+.link-header {
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -21,18 +21,20 @@ header{
     cursor: pointer;
 }
 
-img{
+img {
     width: 595px;
     height: 500px;
     margin: 163px 0 0 123px;
-   display: inline-block;
+    display: inline-block;
 }
+
 div {
     display: inline-block;
     margin-left: 84px;
     width: 493px;
 }
-.button-link{
+
+.button-link {
     border-radius: 6px;
     border: 1px solid #4CB538;
     background: #6FBF44;
@@ -45,12 +47,14 @@ div {
     color: #FFF;
     cursor: pointer;
 }
+
 h1 {
     color: #161A49;
     font-size: 62px;
     font-weight: 700;
-    line-height: 82px; 
+    line-height: 82px;
 }
+
 p {
     color: #4B505A;
     font-size: 18px;
@@ -60,6 +64,7 @@ p {
     margin-top: 47px;
     margin-bottom: 55px;
 }
+
 .buton-main {
     color: #6FBF44;
     font-size: 18px;
@@ -68,4 +73,16 @@ p {
     border: none;
     cursor: pointer;
     margin-top: 45px;
+}
+
+.buton-main:active {
+    color: red
+}
+
+.button-link:active {
+    background-color:red
+}
+
+.link-header:active {
+    color:aqua
 }
